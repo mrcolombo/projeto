@@ -6,7 +6,9 @@
 	$anoNascimento = "1978";
 	$nome1 = "Márcio";
 	$sobrenome = "Colombo";
-	$nomeCompleto = $nome1 . $sobrenome;
+
+	//O ponto serve para concatenar	
+	$nomeCompleto = $nome1 . " " . $sobrenome;
 		echo "$nomeCompleto";
 	//echo "$nome1";
 	//echo "<br/>";
@@ -17,5 +19,5 @@
 	//Se a variável existe o comando abaixo exibe mas somente se existe
 	//if (isset($nome1)) {
 	//echo "$nome1";
-}
+//}
 ?>
